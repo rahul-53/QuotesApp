@@ -1,12 +1,14 @@
-package com.rahul.quoteapp
+package com.rahul.quoteapp.ui
 
-import android.content.Context
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
-import android.widget.TextView
 import androidx.lifecycle.ViewModelProvider
+import com.rahul.quoteapp.viewmodel.MainViewModel
+import com.rahul.quoteapp.viewmodel.MainViewModelFactory
+import com.rahul.quoteapp.model.Quote
+import com.rahul.quoteapp.R
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -20,7 +22,7 @@ class MainActivity : AppCompatActivity() {
 
     }
 
-    fun setQuote(quote:Quote){
+    fun setQuote(quote: Quote){
         quoteText.text = quote.text
         quoteAuthor.text = quote.author
     }

@@ -1,8 +1,9 @@
-package com.rahul.quoteapp
+package com.rahul.quoteapp.viewmodel
 
 import android.content.Context
 import androidx.lifecycle.ViewModel
 import com.google.gson.Gson
+import com.rahul.quoteapp.model.Quote
 
 
 class MainViewModel( val context: Context):ViewModel() {

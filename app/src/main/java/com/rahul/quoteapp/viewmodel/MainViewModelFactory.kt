@@ -1,4 +1,4 @@
-package com.rahul.quoteapp
+package com.rahul.quoteapp.viewmodel
 
 import android.content.Context
 
