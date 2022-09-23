@@ -48,7 +48,6 @@
             android:id="@+id/quoteText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-
             android:paddingStart="10dp"
             android:text="Genius is one percent inspiration and ninety-nine percent perspiration."
             android:textColor="#454545"
@@ -101,6 +100,7 @@
             android:textColor="#80FFFFFF"
             android:textStyle="bold"
             android:textSize="24sp"
+            android:layout_marginEnd="8dp"
             app:drawableEndCompat="@drawable/ic_baseline_navigate_next_24"
             app:drawableTint="#80FFFFFF"
             tools:ignore="UsingOnClickInXml" />
