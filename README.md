@@ -3,9 +3,6 @@ The quote app shows random quotes from famous people. In this app, we can see th
 
 ## QuoteApp Template
 <img src = "https://user-images.githubusercontent.com/86509973/149369380-ffd1372e-c6f3-45d3-bc6c-45789bbcfa82.jpg" height  ="400" width = "300" />
-## Things I used
-- MVVM Architecture
-- Room Database
 
 ## Tech Stack
 - Android Studio
